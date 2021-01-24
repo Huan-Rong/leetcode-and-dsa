@@ -11,15 +11,15 @@ class P283Test {
     @ParameterizedTest
     @CsvFileSource(resources = "/p283.csv")
     void moveZeroes(@ConvertWith(StringsToIntsConverter.class) int[] expected,
-                    @ConvertWith(StringsToIntsConverter.class) int[] actual) {
-        assertArrayEquals(expected, P283.moveZeroes(actual));
+                    @ConvertWith(StringsToIntsConverter.class) int[] nums) {
+        assertArrayEquals(expected, P283.moveZeroes(nums));
     }
 
     @ParameterizedTest
     @CsvFileSource(resources = "/p283.csv")
     void moveZeroes1(@ConvertWith(StringsToIntsConverter.class) int[] expected,
-                     @ConvertWith(StringsToIntsConverter.class) int[] actual) {
-        assertArrayEquals(expected, P283.moveZeroes1(actual));
+                     @ConvertWith(StringsToIntsConverter.class) int[] nums) {
+        assertArrayEquals(expected, P283.moveZeroes1(nums));
     }
 
 }
