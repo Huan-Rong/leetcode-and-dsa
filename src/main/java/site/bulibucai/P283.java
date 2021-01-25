@@ -31,7 +31,8 @@ public class P283 {
         while (j < nums.length) {
             nums[j++] = 0;
         }
-        return nums.clone();
+        //clone 操作会带来时空复杂度的上升。
+        return nums;
     }
 
     /**
@@ -51,6 +52,7 @@ public class P283 {
             nums[j++] = nums[i];
             nums[i] = tmp;
         }
-        return nums.clone();
+        //clone 操作会带来时空复杂度的上升。
+        return nums;
     }
 }
