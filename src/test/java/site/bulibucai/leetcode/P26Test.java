@@ -1,8 +1,9 @@
-package site.bulibucai;
+package site.bulibucai.leetcode;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
+import site.bulibucai.leetcode.P26;
 
 import java.util.stream.Stream;
 

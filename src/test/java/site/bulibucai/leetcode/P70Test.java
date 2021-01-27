@@ -1,7 +1,8 @@
-package site.bulibucai;
+package site.bulibucai.leetcode;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+import site.bulibucai.leetcode.P70;
 
 import static org.junit.jupiter.api.Assertions.*;
 

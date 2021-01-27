@@ -1,4 +1,4 @@
-package site.bulibucai;
+package site.bulibucai.leetcode;
 
 import java.util.HashMap;
 
